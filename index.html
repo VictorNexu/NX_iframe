@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vimago — Book your workspace</title>
+  <script src="https://cdn.nexudus.site/widget/nexudus-widget.min.js"></script>
 </head>
 <body style="margin: 0; background: #ffffff;">
 
+
+
   <div style="font-family: sans-serif; max-width: 680px; margin: 0 auto;">
 
-<div
-  id="nexudus-widget-iframe"
-  url="https://obarco.nexudus.site/OBarco/bookings/meeting-rooms/list"
-  hide-header="true"
-></div>
     
     <!-- Header -->
     <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem;">
@@ -66,6 +64,17 @@
     </div>
 
   </div>
+  <div
+  class="nexudus-widget-iframe"
+  url="https://obarco.nexudus.site/bookings/meeting-rooms/list"
+  hide-header="true"
+></div>
+<div
+  class="nexudus-widget-iframe"
+  url="https://obarco.nexudus.site/events/list"
+  hide-header="true"
+  hide-footer="true"
+></div>
 
 </body>
 </html>
